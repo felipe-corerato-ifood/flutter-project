@@ -4,7 +4,8 @@ flutter-project
 The project's goal is to study the main functionalities (and good pratices) of a mobile application.
 ====================================================================================================
 
-## Study protect:
+
+### Study protect
   - Good practices
   - Architecture
   - Features (next topic)
