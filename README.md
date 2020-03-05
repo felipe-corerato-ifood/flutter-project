@@ -5,7 +5,7 @@ The project's goal is to study the main functionalities (and good pratices) of a
 ====================================================================================================
 
 
-### Study protect
+### Study project
   - Good practices
   - Architecture
   - Features (next topic)
