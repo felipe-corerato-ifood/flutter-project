@@ -2,15 +2,16 @@ flutter-project
 ===============
 
 The project's goal is to study the main functionalities (and good practices) of a mobile application.
-====================================================================================================
+----------------------------------------------------------------------------------------------------
 
 This is a comfort food indication app. It has a login screen with phone authentication method and uses your location to suggests you a comfort food in the catalog of the largest delivery app in Latin America. 
+
 Checkout de screen designs at [Figma]().
 
 ### Study project
   - Good practices
   - Architecture
-  - Features (next topic)
+  - Features
 
 ### Project's  structure and good practices
   Projects in Flutter are very simple. As we have in React Native, here there are Android and iOS folders, but the rest is not so different. 
