@@ -24,9 +24,13 @@ Checkout de screen designs at [Figma]().
 
   I've created "assets" folder as a good practices (like a pattern) to store all my images, icons and fonts.
 
-  All your code must be inside lib folder. The main file is 'main.dart' and (again) as good practice I've created screens and services folder to keep all my code properly organized.
+  All your code must be inside lib folder. The main file is 'main.dart' and (again) as good practice I've created screens, services and widgets folder to keep all my code properly organized.
 
   It's nice to always write tests before or while coding sometimes you don't stop to think about some behaviors, so this test time is good to make sure everything works out.
+
+  Creating protected objects when they must be used only in the class scope is a good practice that is not limited to this framework, but it's always good. In Flutter, a protected property is indicated by an under line (**_**) in front of the instance name.
+
+  The use of **=>** indicates that this method performs only 1 function.
 
 ### Architecture
   The project architecture is available in the project.
@@ -46,11 +50,29 @@ Checkout de screen designs at [Figma]().
 ### Dealing with Widgets
   Flutter works on the same concepts as React/React Native Components, calling them Widgets. We have access to life cycle methods, application state and styling. Obviously, some things work differently or have another name, but the essence is the same.
 
-  #### Life cycle methods
+#### Application state
 
-  #### Application state
-  
-  #### Widget styling 
+#### Life cycle methods
+  Life cycle methods have different behaviors between Stateless and Stateful widgets. Those differences are not contrasting so it's nice to pay attention to details.
+
+  ##### Stateful
+  When created executes the **constructor** and then **build()** method.
+
+  ##### Stateless  
+  After the creation of this widget, the constructor is executed too, but then the **createState()** method is the one responsible for "doing the magic".
+
+  ##### Methods
+  initState: Called when the widget is inserted in the tree. 
+
+  build: Called when the widget is builded or re-builded. After initState() or setState() are common cases to use it.
+
+  dispose: Called when the widget is removed from the tree.
+ 
+  setState: Notifies the widget that the state has changed.
+
+  didUpdateWidget: Called after every widget update. It's executed always before build() method. 
+
+#### Widget styling 
 
 ### Firebase Authentication
   Google Firebase authentication is the chosen one to the project. 
@@ -61,4 +83,6 @@ Checkout de screen designs at [Figma]().
 ### Tests
 
 ## Some fonts
+  [Flutter Documentation](https://flutter.dev/docs)
+  
   [Flutter para iniciantes ](https://www.flutterparainiciantes.com.br/)
