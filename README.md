@@ -4,9 +4,9 @@ flutter-project
 The project's goal is to study the main functionalities (and good practices) of a mobile application.
 ----------------------------------------------------------------------------------------------------
 
-This is a comfort food indication app. It has a login screen with phone authentication method and uses your location to suggests you a comfort food in the catalog of the largest delivery app in Latin America. 
+This is a comfort food indication app. It has a login screen with phone authentication method and uses your location to suggests you a comfort food in the catalog of the biggest delivery app in Latin America. 
 
-Checkout de screen designs at [Figma]().
+Checkout de screen designs at [Figma](https://www.figma.com/file/VmVCpwlPoepRJc4cbFAxEQ/Flutter-project?node-id=0%3A1).
 
 ### Study project
   - Good practices
@@ -16,11 +16,11 @@ Checkout de screen designs at [Figma]().
 ### Project's  structure and good practices
   Projects in Flutter are very simple. As we have in React Native, here there are Android and iOS folders, but the rest is not so different. 
   Folders:
-    - android
-    - ios
-    - lib
-    - build
-    - tests
+  - android
+  - ios
+  - lib
+  - build
+  - tests
 
   I've created "assets" folder as a good practices (like a pattern) to store all my images, icons and fonts.
 
@@ -84,5 +84,5 @@ Checkout de screen designs at [Figma]().
 
 ## Some fonts
   [Flutter Documentation](https://flutter.dev/docs)
-  
+
   [Flutter para iniciantes ](https://www.flutterparainiciantes.com.br/)
